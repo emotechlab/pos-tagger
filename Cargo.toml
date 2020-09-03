@@ -5,3 +5,4 @@ authors = ["xd009642 <danielmckenna93@gmail.com>"]
 edition = "2018"
 
 [dependencies]
+serde = { version = "1.0", features = ["derive"], optional = true }
